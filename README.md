@@ -4,7 +4,7 @@
 
 Copy Link👇<p>
 ```
-https://kc502.github.io/
+https://kc502.github.io/GCPPANNEL/
 ```
 
 ## ㅤ
