@@ -314,7 +314,7 @@
     }
 
     function generateInstanceCodes(instanceName, machineType, firewallName, regionZone, project, account) {
-        return "bash <(curl -Ls https://raw.githubusercontent.com/NyeinKoKo/ez-qwiklab/main/v1/create_instance.sh) \"{instanceName}\" \"{machineType}\" \"{firewallName}\" \"{regionZone}\" \"{project}\" \"{account}\" \"{token}\""
+        return "bash <(curl -Ls https://raw.githubusercontent.com/kc502/GCPPANNEL/main/V1/create_instance.sh) \"{instanceName}\" \"{machineType}\" \"{firewallName}\" \"{regionZone}\" \"{project}\" \"{account}\" \"{token}\""
             .formatUnicorn({
                 instanceName: instanceName,
                 machineType: machineType,
