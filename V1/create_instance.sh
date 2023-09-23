@@ -39,7 +39,7 @@ fi
 #IP=$(wget -qO- ipv4.icanhazip.com)
 #echo ""
 #echo -e "\033[1;32m===================================="
-#echo -e "\033[1;32m   🌺ㅤONLY/:FORYOU&ALLㅤ🌺  " 
+#echo -e "\033[1;32m   🌺ㅤFive Zero Twoㅤ🌺  " 
 #echo -e "\033[1;32m===================================="
 #echo ""
 #echo -e "\033[1;37m◈─────⪧ SSH ACCOUNT ⪦─────◈"
@@ -51,7 +51,7 @@ fi
 #echo -e "\033[1;32m◈ Login Limit :⪧  \033[1;31m$sshlimiter"
 #echo -e "\033[1;32m◈ Expire Date :⪧  \033[1;31m$gui"
 #echo ""
-#echo -e "\033[1;37m◈────⪧ ✿ ✿ 4▪0▪4 ✿ ✿ ⪦────◈"
+#echo -e "\033[1;37m◈────⪧ ✿ ✿ 502✿ ✿ ⪦────◈"
 #echo ""
 
 #echo -e "IP :  ${green}$(wget -qO- ipv4.icanhazip.com <<<"$instance")${plain}"
@@ -60,18 +60,19 @@ echo -e "${yellow}------------------------------------${plain}"
 printf "Developed the script by \n"
 echo -e "${yellow}------------------------------------${plain}"
 
-echo -e "${yellow1}▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ${plain}"
-echo -e "${cyan} ___   ___          ________          ___   ___                               ${plain}"
-echo -e "${cyan}|\  \ |\  \        |\   __  \        |\  \ |\  \                              ${plain}"
-echo -e "${cyan}\ \  \|_\  \       \ \  \|\  \       \ \  \|_\  \                             ${plain}"
-echo -e "${cyan} \ \______  \       \ \  \/\  \       \ \______  \                            ${plain}"
-echo -e "${cyan}  \|_____|\  \       \ \  \/\  \       \|_____|\  \                           ${plain}"
-echo -e "${cyan}         \ \__\       \ \_______\             \ \__\                          ${plain}"
-echo -e "${cyan}          \|__|        \|_______|              \|__|                          ${plain}"
-echo -e "${yellow1}▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ${plain}"
+echo -e "${yellow}▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬${plain}"
+echo -e "${cyan}  ..######..##.....##.####.########                 ${plain}"
+echo -e "${cyan}  .##....##.##.....##..##.....##...                 ${plain}"
+echo -e "${cyan}  .##.......##.....##..##.....##...                 ${plain}"
+echo -e "${cyan}  .##.......#########..##.....##...                 ${plain}"
+echo -e "${cyan}  .##.......##.....##..##.....##...                 ${plain}"
+echo -e "${cyan}  .##....##.##.....##..##.....##...                 ${plain}"
+echo -e "${cyan}  ..######..##.....##.####....##...                 ${plain}"
+echo -e "${yellow}▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬${plain}"
+echo -e "${green}Contact me https://t.me/kochitt for more information.${plain}"
 
-echo -e "${cyan}i am 404 😎 ${plain}"
+echo -e "${cyan}i am 502 😎 ${plain}"
 
 else
-echo -e "${red}Token is invalid or expired. Contact the developer https://t.me/nkka404 for more information.${plain}"
+echo -e "${red}Token is invalid or expired. Contact the developer https://t.me/kochitt for more information.${plain}"
 fi
