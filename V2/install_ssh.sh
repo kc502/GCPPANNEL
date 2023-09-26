@@ -25,7 +25,7 @@ none='\e[0m'    #အရောင်မရှိ
 if [[ -n $6 ]] && [[ $(($(date +%s) - $6)) -lt 120 ]] && [[ $(($(date +%s) - $6)) -ge 0 ]]; then
 
 sed -i 's/#\?AllowTcpForwarding .*/AllowTcpForwarding yes/' /etc/ssh/sshd_config && sed -i 's/#\?PasswordAuthentication .*/PasswordAuthentication yes/' /etc/ssh/sshd_config && sed -i 's/#\?Banner .*/Banner \/etc\/ssh\/gcp_404/' /etc/ssh/sshd_config && /etc/init.d/ssh restart;
-echo "$5" | tee /etc/ssh/gcp_404 >/dev/null
+echo "$5" | tee /etc/ssh/gcp_502 >/dev/null
 sizepass=$(echo ${#2})
 [[ $sizepass -lt 3 ]] && {
 	echo -e "\n${cor1}Short password!, use at least 3 characters${scor}\n"
@@ -57,7 +57,7 @@ echo -e "\033[1;37m◈────⪧ ✿ ✿ 502 ✿ ✿ ⪦────◈"
 echo ""
 
 else
-echo -e "${red}Token is invalid or expired. Contact the developer https://t.me/nkka404 for more information.${plain}"
+echo -e "${red}Token is invalid or expired. Contact the developer https://t.me/kochitt for more information.${plain}"
 fi
 
 echo ""
