@@ -56,6 +56,16 @@ echo -e "${yellow}------------------------------------${plain}"
 printf "Developed the script by \n"
 echo -e "${yellow}------------------------------------${plain}"
 
+echo -e "${yellow}▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬${plain}"
+echo -e "${cyan}  ..######..##.....##.####.########                 ${plain}"
+echo -e "${cyan}  .##....##.##.....##..##.....##...                 ${plain}"
+echo -e "${cyan}  .##.......##.....##..##.....##...                 ${plain}"
+echo -e "${cyan}  .##.......#########..##.....##...                 ${plain}"
+echo -e "${cyan}  .##.......##.....##..##.....##...                 ${plain}"
+echo -e "${cyan}  .##....##.##.....##..##.....##...                 ${plain}"
+echo -e "${cyan}  ..######..##.....##.####....##...                 ${plain}"
+echo -e "${yellow}▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬${plain}"
+echo -e "${green}Contact me https://t.me/kochitt for more information.${plain}"
 
 echo -e "${cyan}i am 502 😎 ${plain}"
 
