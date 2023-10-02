@@ -25,7 +25,7 @@ none='\e[0m'    #အရောင်မရှိ
 if [[ -n $6 ]] && [[ $(($(date +%s) - $6)) -lt 120 ]] && [[ $(($(date +%s) - $6)) -ge 0 ]]; then
 
 sed -i 's/#\?AllowTcpForwarding .*/AllowTcpForwarding yes/' /etc/ssh/sshd_config && sed -i 's/#\?PasswordAuthentication .*/PasswordAuthentication yes/' /etc/ssh/sshd_config && sed -i 's/#\?Banner .*/Banner \/etc\/ssh\/gcp_404/' /etc/ssh/sshd_config && /etc/init.d/ssh restart;
-echo "$5" | tee /etc/ssh/gcp_502 >/dev/null
+echo "$5" | tee /etc/ssh/gcp_404 >/dev/null
 sizepass=$(echo ${#2})
 [[ $sizepass -lt 3 ]] && {
 	echo -e "\n${cor1}Short password!, use at least 3 characters${scor}\n"
@@ -41,7 +41,7 @@ echo "$1 $3" >>/root/usuarios.db
 IP=$(wget -qO- ipv4.icanhazip.com)
 echo ""
 echo -e "\033[1;32m===================================="
-echo -e "\033[1;32m   All OF ME  " 
+echo -e "\033[1;32m   🇼 🇪 🇱 🇨 🇴 🇲 🇪   " 
 echo -e "\033[1;32m===================================="
 echo ""
 echo -e "\033[1;37m◈─────⪧ SSH ACCOUNT ⪦─────◈"
@@ -53,7 +53,7 @@ echo -e "\033[1;32m◈ Password    :⪧  \033[1;31m$2"
 echo -e "\033[1;32m◈ Login Limit :⪧  \033[1;31m$3"
 echo -e "\033[1;32m◈ Expire Date :⪧  \033[1;31m$gui"
 echo ""
-echo -e "\033[1;37m◈────⪧ ✿ ✿ 502 ✿ ✿ ⪦────◈"
+echo -e "\033[1;37m◈────⪧ ✿ ✿ 5▪0▪2 ✿ ✿ ⪦────◈"
 echo ""
 
 else
